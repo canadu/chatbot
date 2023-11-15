@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP:wght@500&display=swap"
+    rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+
+<body class="show-chatbot">
+  <button class="chatbot-toggler">
+    <span class="fa-regular fa-message fa-lg"></span>
+    <span class="fa-solid fa-xmark fa-lg"></span>
+  </button>
+  <div class="chatbot">
+    <header>
+      <h2>Chatbot</h2>
+      <span class="close-btn fa-solid fa-xmark fa-lg"></span>
+    </header>
+    <ul class="chatbox">
+      <li class="chat incoming">
+        <span class="fa-solid fa-robot fa-lg"></span>
+        <p>こんにちは<br>何かお手伝い出来ることはありますか？</p>
+      </li>
+    </ul>
+    <div class="chat-input">
+      <textarea placeholder="質問を入力してください。" spellcheck="false" required></textarea>
+      <span id="send-btn" class="fa-regular fa-paper-plane"></span>
+    </div>
+  </div>
+</body>
+
+</html>
